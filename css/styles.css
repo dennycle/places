@@ -1,0 +1,16 @@
+#paris, #newyork, #seattle {
+  display: none;
+}
+
+.middle h2{
+  text-align: center;
+}
+
+img {
+  height:200px;
+  width:300px;
+}
+
+h1 {
+  text-align: center;
+}

@@ -25,16 +25,17 @@ $(document).ready(function(){
   $("ul#parisoutput").append(place1.printDetails());
   $("ul#newyorkoutput").append(place2.printDetails());
   $("ul#seattleoutput").append(place3.printDetails());
+  
 
   $("h2.clickable").click(function(){
-    $("#paris").toggle();
+    $("#paris").slideToggle();
   });
 
   $("h2.clickable1").click(function(){
-    $("#newyork").toggle();
+    $("#newyork").slideToggle();
   });
 
   $("h2.clickable2").click(function(){
-    $("#seattle").toggle();
+    $("#seattle").slideToggle();
   });
 });
